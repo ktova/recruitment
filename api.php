@@ -34,7 +34,6 @@ $requestMethod = $_SERVER["REQUEST_METHOD"];
 $controller = new ExpandController( $requestMethod );
 
 // Handle POST Request
-//$requestBody = json_encode(file_get_contents('php://input'),  JSON_FORCE_OBJECT);
 $requestBody = file_get_contents( 'php://input' );
 $controller->processRequest( $requestBody );
 
