@@ -1,0 +1,5 @@
+{
+    "require": {
+        "bluem/tree": "^3.1"
+    }
+}
