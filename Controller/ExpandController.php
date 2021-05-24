@@ -16,7 +16,7 @@ class ExpandController
 
     /**
      * Constructor
-     * @param string $requestMethod - TODO.
+     * @param string $requestMethod - Must be POST for our case.
      */
     public function __construct( $requestMethod )
     {
@@ -25,7 +25,7 @@ class ExpandController
 
     /**
      * Process our request from the endpoint
-     * @param array $body - TODO.
+     * @param array $body - The POST Request's body content.
      */
     public function processRequest( $body )
     {
